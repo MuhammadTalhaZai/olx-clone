@@ -1,0 +1,410 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    font-family: Roboto,Helvetica,sans-serif;
+    padding: 0;
+}
+.container{
+    max-width: 1280px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+/* header */
+header {
+    background-color: #f7f8f8;
+    position: sticky;
+    top: 0;
+    padding: 10px;
+}
+
+section.top-bar .top-bar-row{
+    padding: 1% 0;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    align-items: center;
+    margin-top: 1rem;
+    gap: 30px;
+
+}
+
+
+
+/* navbar section start */
+section.nav-bar .container {
+    display: flex;
+    align-items: center;
+    gap: 25px;
+    flex-wrap: wrap;
+}
+.logo svg {
+    width: 100%;
+    height: 40px;
+}
+.custom-select {
+    position: relative;
+    display: inline-block;
+    width: 200px; /* Adjust the width as needed */
+}
+
+.custom-select {
+    background-color: #fff;
+    border-radius: 0.4rem;
+    border: 2px solid #002f34;
+    height: 48px;
+    max-height: 100%;
+    border-radius: 4px;
+    display: flex;
+    width: 260px;
+    align-items: center;
+}
+.search-icon svg {
+    width: 20px;
+}
+
+.custom-select select{
+    height: 48px;
+    max-height: 100%;
+    width: 100%;
+    border: none;
+    font-size: 17px;
+}
+.custom-select select:focus {
+    border: none;
+    outline: none; /* Remove the focus outline (optional) */
+}
+.Search-bar {
+    background-color: #fff;
+    border-radius: 0.4rem;
+    border: 2px solid #002f34;
+    height: 48px;
+    max-height: 100%;
+    border-radius: 4px;
+    display: flex;
+    align-items: center;
+}
+.Search-bar input{
+    height: 48px;
+    max-height: 100%;
+    width: 600px;
+    border: none;
+    padding: 15px;
+    font-size: 18px;
+}
+.Search-bar button{
+    background: none;
+    border: none;
+    margin: 0;
+    padding: 0;
+    cursor: pointer;
+    align-items: center;
+    background-color: #002f34;
+    height: 48px;
+    width: 48px;
+}
+.Search-bar input:focus {
+    border: none;
+    outline: none; /* Remove the focus outline (optional) */
+}
+.login-btn .login {
+    padding: 0;
+    cursor: pointer;
+    font-weight: 700;
+    color: #002f34;
+    text-decoration: none;
+    font-size: 16px;
+    border-bottom: 2px solid #002f34;
+}
+.sell-btn {
+    background-image: url(../images/btn-border.svg);
+    width: 70px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 13px;
+    text-align: end;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.sell-btn .sell{
+    padding: 0;
+    cursor: pointer;
+    font-weight: 700;
+    color: #002f34;
+    text-decoration: none;
+    font-size: 16px;
+    text-transform: uppercase;
+}
+
+
+/* main category section start */
+.main-category-sec {
+    padding: 1.2rem;
+    box-shadow: 0 1px 4px 0 rgba(0,0,0,.1);
+}
+.main-category-sec .container {
+    display: flex;
+    gap: 10px;
+    flex-wrap: wrap;
+}
+.main-category-sec select {
+    color: #002f34;
+    font-weight: 700;
+    font-size: 1rem;
+    border: none;
+    outline: none;
+}
+
+.multiple-category ul {
+    display: flex;
+    gap: 15px;
+    flex-wrap: wrap;
+}
+.multiple-category ul li {
+    list-style: none;
+    color: #002f34;
+    font-size: 17px;
+}
+/* main category section end */
+
+/*  slider section start */
+.slider{
+    padding:2% 0;
+}
+.slider img{
+   width: 100%;
+}
+/*  slider section end */
+
+
+
+/* all categories section start */
+.all-categories-section-card {
+    padding: 1% 0;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 40px;
+}
+.card-categorries {
+    width: 105px;
+    text-align: center;
+}
+.card-categorries img {
+    width: 90px;
+}
+.card-categorries a{
+    text-align: center;
+    text-transform: capitalize;
+    margin: 0;
+    font-size: 16px;
+    font-weight: 700;
+    text-decoration: none;
+    color: black;
+}
+.card-categorries a h4{
+ margin: 0;
+ padding: 0;
+}
+/* all categories section end */
+.sec-products{
+    padding: 2% 0;
+}
+
+.sec-products .main-container {
+    display: flex;
+    width: 100%;
+    flex-wrap: wrap;
+    font-family: sans-serif;
+    justify-content: center;
+    gap: 20px;
+}
+.div-product-heading {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 1%;}
+.sec-products .div-product-heading .product-heading h4{
+    color: #002f34;
+    font-weight: 700;
+    white-space: nowrap;
+    overflow: hidden;
+    font-size: 1.4rem;
+}
+.sec-products .div-product-heading .view-more-btn a{
+    color: #3a77ff;
+    font-weight: 700;
+}
+
+
+ 
+.sec-products .main-container .colum {
+    border: 1px solid #ccd5d6;
+    border-radius: 5px;
+    width: 300px;
+    
+}
+
+.sec-products .main-container .colum .div-image {
+    width: 100%;
+    height: 230px;
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center center;
+}
+
+.sec-products .main-container .colum .image-1  {
+background-image: url("https://pricebey.com/wp-content/uploads/2021/11/Apple-iPhone-14-Pro-Max.jpg");
+
+}
+
+.sec-products .main-container .colum .image-2  {
+    background-image: url("https://asia-exstatic-vivofs.vivo.com/PSee2l50xoirPK7y/1681981045280/520d5495cac65462e6d14a08a0415cad.png");
+
+}
+
+.sec-products .main-container .colum .image-3  {
+    background-image: url("https://www.suryaelectronics.in/img/Product/Main/VivoMobilePhonesandAccessoriesMobilePhones230.jpg");
+
+}
+
+.sec-products .main-container .colum .image-4  {
+    background-image: url("https://5.imimg.com/data5/SELLER/Default/2021/8/XP/PM/WF/123571605/vivo-y73-mobile-phones.jpg");
+
+}
+
+.sec-products .main-container .colum .div-price-wishlist-main {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.sec-products .main-container .colum .div-price-wishlist-main .div-wishlist {
+
+    background-image: url('https://static.thenounproject.com/png/3386813-200.png');
+    background-size: cover;
+    width: 30px;
+    height: 30px;
+    cursor: pointer;
+}
+
+.sec-products .main-container .colum .div-content {
+    padding: 5% 5%;
+}
+
+.div-discription {
+    padding: 5px 0px;
+    font-size: 17px;
+    color: #616161;
+    text-transform: capitalize;
+}
+.div-location {
+    padding: 5px 0;
+    font-size: 13px;
+    color: gray;
+}
+.div-post-time{
+    padding: 5px 0;
+    font-size: 12px;
+    color: rgb(145, 143, 143);
+}
+
+/* top footer section start */
+.top-footer{
+  background-color: rgb(247 248 249);
+}
+.top-footer .container {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.olx-app-content h2 {
+    margin: 2.8rem 0 1.6rem;
+    font-size: 2rem;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+.olx-app-content p {
+    font-size: 1.3rem;
+    max-width: 40rem;
+}
+
+.top-footer-image {
+    width: 400px;
+}
+.top-footer-image img{
+    width: 100%;
+}
+.olx-app-content {
+    width: 400px;
+    border-right: 2px solid rgb(198 207 209);
+}
+.get-your-app{
+    width: 400px;
+    margin-left: 20px;
+}
+.app-iocon {
+    display: flex;
+    margin-top: 20px;
+    flex-wrap: wrap;
+}
+.app-iocon img {
+    width: 130px;
+}
+
+/* footer start */
+footer {
+    background-color: #ebeeef;
+    padding: 1.6rem 0 6.4rem;
+    border-top: 1px solid rgba(0,47,52,.2);
+}
+footer .container{
+    display: flex;
+    flex-wrap: wrap;
+}
+.footer_hed {
+    font-size: 14px;
+    color: RGB(0, 47, 52);
+    font-weight: 700;
+}
+.footer_links {
+    width: 250px;
+}
+.footer_links ul li{
+    font-size: 12.04px;
+    color:#949494;
+    font-weight: 400;
+    margin: 10px 0;
+    list-style: none;
+}
+.footer-app-iocon {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+.footer-app-iocon img {
+    width: 75px;
+}
+.copyright {
+    padding: 1.6rem 0;
+    background-color: #002f34;
+    color: #fff;
+    text-align: right;
+}
+.copyright h2 {
+    color: #fff;
+    font-size: 13px;
+}
+@media screen and (max-width: 667px) {
+    .Search-bar input{
+        width: 100%;
+    }
+    .div-product-heading {
+        padding: 1% 75px;
+    }
+  }
+
